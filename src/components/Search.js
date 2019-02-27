@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import queryString from "query-string";
 import { fetchGifs } from "../actions/index";
-import SearchBar from "./search.bar";
-import GifList from "./gif.list";
+import SearchBar from "./SearchBar";
+import GifList from "./GifList";
 
 class Search extends Component {
   componentDidMount() {
