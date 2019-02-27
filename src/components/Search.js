@@ -25,6 +25,7 @@ class Search extends Component {
     const { gifs, term } = this.props;
     return (
       <div className="search">
+        <h1>The Office Giphy Search</h1>
         <SearchBar defaultValue={term} history={this.props.history} />;
         <GifList gifs={gifs} />
       </div>

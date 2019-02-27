@@ -1,5 +1,4 @@
 export const FETCH_GIFS_SUCCESS = "FETCH_GIFS_SUCCESS";
-export const TOGGLE_FAVORITE = "TOGGLE_FAVORITE";
 
 const API_KEY = "?api_key=h27HxzLMIYiXkgjgkLI4cg2FJa8ka6hM";
 const API_URL = `https://api.giphy.com/v1/gifs`;
@@ -37,14 +36,4 @@ export const fetchGif = id => async dispatch => {
   } catch (error) {
     console.error(error);
   }
-};
-
-export const toggleFavorite = gif => dispatch => {
-  if (!gif) {
-    return;
-  }
-  return {
-    type: TOGGLE_FAVORITE,
-    payload: gif
-  };
 };

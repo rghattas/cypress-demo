@@ -18,11 +18,8 @@ class GifDetails extends Component {
     }
     return (
       <div className="gif-details">
+        <h1 className="gif-details__title">{gif.title}</h1>
         <Gif id={gif.id} slug={gif.slug} url={gif.images.original.url} />
-        <p>
-          <strong>Title:</strong>
-          <span className="gif-details__title">{gif.title}</span>
-        </p>
         <p>
           <strong>Source:</strong>
           <a className="gif-details__source" href={gif.source}>
@@ -30,7 +27,7 @@ class GifDetails extends Component {
           </a>
         </p>
         <p>
-          <strong>Rating:</strong>{" "}
+          <strong>Rating:</strong>
           <span className="gif-details__rating">{gif.rating}</span>
         </p>
       </div>

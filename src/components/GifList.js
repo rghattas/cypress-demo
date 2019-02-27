@@ -33,9 +33,3 @@ GifList.defaultProps = {
 };
 
 export default GifList;
-
-// column-gap: 1.5em;
-// font-size: .85em;
-// margin: 1.5em 0;
-// padding: 0;
-// }
