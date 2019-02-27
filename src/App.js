@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 // import Favorites from "./components/favorites";
-import Search from "./components/search";
-import GifDetails from "./components/gif.details";
+import Search from "./components/Search";
+import GifDetails from "./components/GifDetails";
 
 const App = () => {
   return (
