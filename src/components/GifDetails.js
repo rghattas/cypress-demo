@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { fetchGif } from "../actions";
-import Gif from "./gif";
+import Gif from "./Gif";
 
 class GifDetails extends Component {
   componentDidMount() {
