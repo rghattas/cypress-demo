@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-import Gif from "./gif";
+import Gif from "./Gif";
 
 const GifList = ({ gifs }) => {
   if (!gifs || gifs.length === 0) {
